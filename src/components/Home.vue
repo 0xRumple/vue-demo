@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Hey there</h1>
-    <template>
+    <app-header></app-header>
+    <section>
       <div class="columns">
         <div class="column" v-for="student in students">
           <div class="card">
@@ -11,12 +11,20 @@
           </div>
         </div>
       </div>
-    </template>
+    </section>
+    <app-footer></app-footer>    
   </div>
 </template>
 
 <script>
+import AppHeader from "./AppHeader.vue"
+import AppFooter from "./AppFooter.vue"
+
 export default {
+  components: {
+    "app-header": AppHeader,
+    "app-footer": AppFooter
+  },
   data(){
     return {
       students: [
@@ -31,5 +39,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import '~bulma';
+  @import "~bulma";
 </style>
