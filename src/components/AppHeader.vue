@@ -27,6 +27,3 @@
     </nav>
 </template>
 
-<style scoped lang="scss">
-  @import "~bulma";
-</style>

@@ -8,7 +8,7 @@
           <router-view></router-view>
         </div>
       </section>
-      <app-footer></app-footer>    
+      <app-footer></app-footer>
     </div>
   </div>
 </template>
@@ -33,13 +33,13 @@ export default {
       flex-wrap: wrap
     }
 
-#app {
-  /*
-   text-align: center;
-   margin-top: 60px;
-  */
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  #app {
+    /*
+     text-align: center;
+     margin-top: 60px;
+    */
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 </style>

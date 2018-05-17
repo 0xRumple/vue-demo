@@ -11,7 +11,3 @@
         props: ['student']
     }
 </script>
-
-<style scoped lang="scss">
-  @import "~bulma";
-</style>
