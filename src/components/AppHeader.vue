@@ -5,21 +5,21 @@
           </div>
           <div class="navbar-menu">
                 <div class="navbar-start">
-                    <a href="/" class="navbar-item">
+                    <router-link to="/" class="navbar-item is-tab" exact>
                         Home
-                    </a>
-                    <a href="/" class="navbar-item">
+                    </router-link>
+                    <router-link to="/apply" class="navbar-item is-tab" exact>
                       Apply
-                    </a>
+                    </router-link>
                 </div>
 
                 <div class="navbar-end">
-                    <a href="/" class="navbar-item">
+                    <router-link to="/register" class="navbar-item is-tab" exact>
                         Register
-                    </a>
-                    <a href="/" class="navbar-item">
+                    </router-link>
+                    <router-link to="/login" class="navbar-item is-tab" exact>
                         Login
-                    </a>
+                    </router-link>
                 </div>
           </div>
         

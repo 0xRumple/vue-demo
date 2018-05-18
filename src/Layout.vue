@@ -26,7 +26,8 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+  $primary: #287ab1;
   @import "~bulma";
 
     .columns{
