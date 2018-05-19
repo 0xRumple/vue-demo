@@ -1,13 +1,13 @@
 <template>
     <div class="card">
         <div class="card-content">
-          {{ student.name }}
+            {{ student.name }}
         </div>
     </div>
 </template>
 
 <script>
-    export default{
-        props: ['student']
-    }
+export default {
+  props: ["student"]
+};
 </script>
