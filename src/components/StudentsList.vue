@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="columns">
-            <div class="column" v-for="student in students">
+            <div class="column" v-if="students.length > 0" v-for="student in students">
                 <app-student-card :student="student"></app-student-card>
             </div>
         </div>
@@ -16,8 +16,10 @@ export default {
   components: {
     "app-student-card": StudentCard
   },
-  data: {
-    students: []
+  data: function() {
+    return {
+      students: []
+    };
   },
   methods: {
     loadStudents() {
